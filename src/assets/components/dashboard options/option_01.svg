@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="404" height="124" viewBox="0 0 404 124">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="-0.633" x2="0.5" y2="1.212" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#000fc6"/>
+      <stop offset="1" stop-color="#0d67f8" stop-opacity="0.616"/>
+    </linearGradient>
+    <filter id="bg" x="0" y="0" width="404" height="124" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur"/>
+      <feFlood flood-color="#fff" flood-opacity="0.294"/>
+      <feComposite operator="in" in2="blur"/>
+    </filter>
+    <filter id="bg-2" x="0" y="0" width="404" height="124" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-2"/>
+      <feFlood flood-color="#002577" flood-opacity="0.098" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-2"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <filter id="Intersection_1" x="248.356" y="55.219" width="119.332" height="68.281" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur-3"/>
+      <feFlood flood-color="#fff" flood-opacity="0.294"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Intersection_1-2" x="248.356" y="55.219" width="119.332" height="68.281" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-4"/>
+      <feFlood flood-color="#002577" flood-opacity="0.098" result="color-2"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-4"/>
+      <feComposite operator="in" in="color-2"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_6570" data-name="Group 6570" transform="translate(-718 -159)">
+    <g data-type="innerShadowGroup">
+      <g transform="matrix(1, 0, 0, 1, 718, 159)" filter="url(#bg)">
+        <path id="bg-3" data-name="bg" d="M868.547,562.654H519.9a10.992,10.992,0,0,1-4.113-.793,10.727,10.727,0,0,1-3.486-2.26L497.373,545.12a10.363,10.363,0,0,1-2.33-3.381,10.1,10.1,0,0,1-.818-3.988V467.557a10.1,10.1,0,0,1,.818-3.988,10.365,10.365,0,0,1,2.33-3.381l14.932-14.481a10.722,10.722,0,0,1,3.486-2.26,10.987,10.987,0,0,1,4.113-.793H868.547a10.987,10.987,0,0,1,4.112.793,10.71,10.71,0,0,1,3.486,2.26l14.932,14.481a10.363,10.363,0,0,1,2.33,3.381,10.1,10.1,0,0,1,.818,3.988v70.195a10.1,10.1,0,0,1-.818,3.988,10.36,10.36,0,0,1-2.33,3.381L876.145,559.6a10.716,10.716,0,0,1-3.486,2.26A10.992,10.992,0,0,1,868.547,562.654Z" transform="translate(-492.22 -441.65)" stroke="rgba(0,0,0,0)" stroke-width="1" opacity="0.6" fill="url(#linear-gradient)"/>
+      </g>
+      <path id="bg-4" data-name="bg" d="M868.547,562.654H519.9a10.992,10.992,0,0,1-4.113-.793,10.727,10.727,0,0,1-3.486-2.26L497.373,545.12a10.363,10.363,0,0,1-2.33-3.381,10.1,10.1,0,0,1-.818-3.988V467.557a10.1,10.1,0,0,1,.818-3.988,10.365,10.365,0,0,1,2.33-3.381l14.932-14.481a10.722,10.722,0,0,1,3.486-2.26,10.987,10.987,0,0,1,4.113-.793H868.547a10.987,10.987,0,0,1,4.112.793,10.71,10.71,0,0,1,3.486,2.26l14.932,14.481a10.363,10.363,0,0,1,2.33,3.381,10.1,10.1,0,0,1,.818,3.988v70.195a10.1,10.1,0,0,1-.818,3.988,10.36,10.36,0,0,1-2.33,3.381L876.145,559.6a10.716,10.716,0,0,1-3.486,2.26A10.992,10.992,0,0,1,868.547,562.654Z" transform="translate(225.775 -282.654)" opacity="0.6" fill="url(#linear-gradient)"/>
+      <g transform="matrix(1, 0, 0, 1, 718, 159)" filter="url(#bg-2)">
+        <path id="bg-5" data-name="bg" d="M868.547,562.654H519.9a10.992,10.992,0,0,1-4.113-.793,10.727,10.727,0,0,1-3.486-2.26L497.373,545.12a10.363,10.363,0,0,1-2.33-3.381,10.1,10.1,0,0,1-.818-3.988V467.557a10.1,10.1,0,0,1,.818-3.988,10.365,10.365,0,0,1,2.33-3.381l14.932-14.481a10.722,10.722,0,0,1,3.486-2.26,10.987,10.987,0,0,1,4.113-.793H868.547a10.987,10.987,0,0,1,4.112.793,10.71,10.71,0,0,1,3.486,2.26l14.932,14.481a10.363,10.363,0,0,1,2.33,3.381,10.1,10.1,0,0,1,.818,3.988v70.195a10.1,10.1,0,0,1-.818,3.988,10.36,10.36,0,0,1-2.33,3.381L876.145,559.6a10.716,10.716,0,0,1-3.486,2.26A10.992,10.992,0,0,1,868.547,562.654Z" transform="translate(-492.22 -441.65)" fill="#fff" opacity="0.6"/>
+      </g>
+      <path id="bg-6" data-name="bg" d="M868.547,562.654H519.9a10.992,10.992,0,0,1-4.113-.793,10.727,10.727,0,0,1-3.486-2.26L497.373,545.12a10.363,10.363,0,0,1-2.33-3.381,10.1,10.1,0,0,1-.818-3.988V467.557a10.1,10.1,0,0,1,.818-3.988,10.365,10.365,0,0,1,2.33-3.381l14.932-14.481a10.722,10.722,0,0,1,3.486-2.26,10.987,10.987,0,0,1,4.113-.793H868.547a10.987,10.987,0,0,1,4.112.793,10.71,10.71,0,0,1,3.486,2.26l14.932,14.481a10.363,10.363,0,0,1,2.33,3.381,10.1,10.1,0,0,1,.818,3.988v70.195a10.1,10.1,0,0,1-.818,3.988,10.36,10.36,0,0,1-2.33,3.381L876.145,559.6a10.716,10.716,0,0,1-3.486,2.26A10.992,10.992,0,0,1,868.547,562.654Z" transform="translate(225.775 -282.654)" fill="none" stroke="rgba(0,0,0,0)" stroke-width="1" opacity="0.6"/>
+    </g>
+    <g data-type="innerShadowGroup">
+      <g transform="matrix(1, 0, 0, 1, 718, 159)" filter="url(#Intersection_1)">
+        <path id="Intersection_1-3" data-name="Intersection 1" d="M97.026,65.283V27.562a51.024,51.024,0,0,1,.762-9.526L77.341,23.37,75.056,10.417,97.026,1.653h19.3v63.63Zm-50.277,0q1.636-6.789,1.636-19.815,0-17.78-3.048-23.939t-11.811-6.16q-8.509,0-11.494,6.16T19.049,45.468q0,13.026,1.6,19.815H1.556A109.521,109.521,0,0,1,0,45.468Q0,20.323,7.492,10.162T33.654,0q18.8,0,26.289,10.16t7.493,35.306a109.542,109.542,0,0,1-1.558,19.815Z" transform="translate(249.86 55.72)" fill="#00e1ff" opacity="0.2"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 718, 159)" filter="url(#Intersection_1-2)">
+        <path id="Intersection_1-4" data-name="Intersection 1" d="M97.026,65.283V27.562a51.024,51.024,0,0,1,.762-9.526L77.341,23.37,75.056,10.417,97.026,1.653h19.3v63.63Zm-50.277,0q1.636-6.789,1.636-19.815,0-17.78-3.048-23.939t-11.811-6.16q-8.509,0-11.494,6.16T19.049,45.468q0,13.026,1.6,19.815H1.556A109.521,109.521,0,0,1,0,45.468Q0,20.323,7.492,10.162T33.654,0q18.8,0,26.289,10.16t7.493,35.306a109.542,109.542,0,0,1-1.558,19.815Z" transform="translate(249.86 55.72)" fill="#fff" opacity="0.2"/>
+      </g>
+    </g>
+  </g>
+</svg>

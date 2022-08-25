@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="78.88" height="78.88" viewBox="0 0 78.88 78.88">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.088" y1="0.912" x2="0.935" y2="0.065" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#5f52ff"/>
+      <stop offset="1" stop-color="#27a1e3"/>
+    </linearGradient>
+    <filter id="bg" x="2.026" y="0.026" width="74.828" height="74.828" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feFlood flood-color="#1824b1" flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+    </filter>
+    <filter id="bg-2" x="2.026" y="0.026" width="74.828" height="74.828" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-color="#9bfffb" flood-opacity="0.212" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-2"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-3" x1="0.973" y1="0.027" x2="0.023" y2="0.977" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4ef1ff"/>
+      <stop offset="1" stop-color="#505eff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="bg-3" x="0" y="0" width="78.88" height="78.88" filterUnits="userSpaceOnUse">
+      <feOffset dy="8" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur-3"/>
+      <feFlood flood-color="#000dad" flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Edit" transform="translate(15.44 7.44)">
+    <g data-type="innerShadowGroup">
+      <g transform="matrix(1, 0, 0, 1, -15.44, -7.44)" filter="url(#bg)">
+        <g id="bg-4" data-name="bg" transform="translate(63.44 31.44) rotate(135)" stroke="#79faff" stroke-width="1" fill="url(#linear-gradient)">
+          <rect width="33.941" height="33.941" rx="6" stroke="none"/>
+          <rect x="-0.5" y="-0.5" width="34.941" height="34.941" rx="6.5" fill="none"/>
+        </g>
+      </g>
+      <rect id="bg-5" data-name="bg" width="33.941" height="33.941" rx="6" transform="translate(48 24) rotate(135)" fill="url(#linear-gradient)"/>
+      <g transform="matrix(1, 0, 0, 1, -15.44, -7.44)" filter="url(#bg-2)">
+        <rect id="bg-6" data-name="bg" width="33.941" height="33.941" rx="6" transform="translate(63.44 31.44) rotate(135)" fill="#fff"/>
+      </g>
+      <g id="bg-7" data-name="bg" transform="translate(48 24) rotate(135)" fill="none" stroke="#79faff" stroke-width="1">
+        <rect width="33.941" height="33.941" rx="6" stroke="none"/>
+        <rect x="-0.5" y="-0.5" width="34.941" height="34.941" rx="6.5" fill="none"/>
+      </g>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -15.44, -7.44)" filter="url(#bg-3)">
+      <rect id="bg-8" data-name="bg" width="30.321" height="30.321" rx="5" transform="translate(60.88 31.44) rotate(135)" opacity="0.6" fill="url(#linear-gradient-3)"/>
+    </g>
+    <path id="icon" d="M.659,16.741a.665.665,0,0,1-.476-.2A.615.615,0,0,1,0,16.09l.1-3.879A2.8,2.8,0,0,1,.969,10.26L10.665.9a3.28,3.28,0,0,1,4.517,0l1.294,1.25a3.006,3.006,0,0,1,.062,4.3l-.062.061L6.745,15.9a3.008,3.008,0,0,1-2.1.838ZM1.9,11.156a1.562,1.562,0,0,0-.482,1.083l-.084,3.228H4.646A1.692,1.692,0,0,0,5.7,15.1L5.81,15l8.05-7.767L9.912,3.427ZM14.794,6.338l.752-.726a1.767,1.767,0,0,0,.035-2.526l-.035-.034L14.245,1.8a1.922,1.922,0,0,0-2.654,0l-.752.726Z" transform="translate(15.294 15.258)" fill="#fff"/>
+  </g>
+</svg>

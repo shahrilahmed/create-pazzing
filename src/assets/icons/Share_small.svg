@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="87.365" height="87.364" viewBox="0 0 87.365 87.364">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1" y1="1" x2="0" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#9055ff"/>
+      <stop offset="1" stop-color="#d667ff"/>
+    </linearGradient>
+    <filter id="bg" x="2.268" y="0.268" width="82.828" height="82.828" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feFlood flood-color="#1824b1" flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-2" x2="1.512" y2="1.512" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f5bfff"/>
+      <stop offset="1" stop-color="#c950ff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="bg-2" x="0" y="0" width="87.365" height="87.364" filterUnits="userSpaceOnUse">
+      <feOffset dy="8" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur-2"/>
+      <feFlood flood-color="#000dad" flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Share" transform="translate(71.682 63.682) rotate(180)">
+    <g transform="matrix(-1, 0, 0, -1, 71.68, 63.68)" filter="url(#bg)">
+      <g id="bg-3" data-name="bg" transform="translate(43.68 63.68) rotate(-135)" stroke="#f7c9ff" stroke-width="1" fill="url(#linear-gradient)">
+        <rect width="39.598" height="39.598" rx="6" stroke="none"/>
+        <rect x="-0.5" y="-0.5" width="40.598" height="40.598" rx="6.5" fill="none"/>
+      </g>
+    </g>
+    <g transform="matrix(-1, 0, 0, -1, 71.68, 63.68)" filter="url(#bg-2)">
+      <rect id="bg-4" data-name="bg" width="36.32" height="36.32" rx="4" transform="translate(43.68 61.36) rotate(-135)" opacity="0.6" fill="url(#linear-gradient-2)"/>
+    </g>
+    <path id="Path_164" data-name="Path 164" d="M19.683,9.063l-1.889,1.889a1,1,0,1,1-1.408-1.408l1.889-1.889a3.318,3.318,0,0,0-4.693-4.692L9.6,6.945a3.314,3.314,0,0,0,.561,5.14,1,1,0,0,1-1.075,1.676,5.305,5.305,0,0,1-.895-8.224l3.982-3.982a5.309,5.309,0,1,1,7.509,7.507ZM5.309,19.247a3.3,3.3,0,0,0,2.346-.972l3.983-3.982a3.315,3.315,0,0,0-.561-5.14,1,1,0,1,1,1.075-1.676,5.306,5.306,0,0,1,.894,8.224L9.064,19.683a5.309,5.309,0,1,1-7.509-7.508l1.889-1.889a1,1,0,1,1,1.408,1.408L2.963,13.582a3.318,3.318,0,0,0,2.346,5.664Z" transform="translate(39.708 38.396) rotate(180)" fill="#fff" fill-rule="evenodd"/>
+  </g>
+</svg>
