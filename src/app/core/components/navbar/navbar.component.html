@@ -1,15 +1,14 @@
-<div class="d-flex">
-  <ul
-    ngbNav
-    #nav="ngbNav"
-    [(activeId)]="active"
-    class="nav-pills"
-    orientation="vertical"
-  >
-    <li ngbNavItem="bottom">
-      <a ngbNavLink>Pazzing</a>
-    </li>
-  </ul>
-
-  <div [ngbNavOutlet]="nav" class="ms-4"></div>
+<div class="navigation-bar">
+  <nav class="navbar">
+    <a class="navbar-brand"
+      ><img src="./../../../../assets/logo/Pazzing logo.svg"
+    /></a>
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#"
+          ><img src="./../../../../assets/icons/Menu.svg"
+        /></a>
+      </li>
+    </ul>
+  </nav>
 </div>

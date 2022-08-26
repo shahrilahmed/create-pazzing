@@ -1,0 +1,38 @@
+.navigation-bar {
+  height: 100%;
+
+  .navbar {
+    height: 100%;
+  }
+
+  .navbar-nav {
+    width: 100%;
+    position: absolute;
+    bottom: 40px;
+    .nav-item {
+      height: 4rem;
+      margin: 0 auto;
+      .nav-link {
+        height: 100%;
+        img {
+          height: 100%;
+        }
+      }
+    }
+  }
+
+  .navbar-brand {
+    width: 100%;
+    position: absolute;
+    top: 18px;
+    img {
+      width: 100%;
+    }
+  }
+
+  .brand-logo {
+    display: block;
+    height: 8rem;
+    width: 8rem;
+  }
+}

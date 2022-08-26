@@ -1,0 +1,184 @@
+.dashboard {
+  background: url("./../../../../assets/backgrounds/dashboard-bg.svg") bottom
+    left;
+  background-size: 52vw;
+  background-repeat: no-repeat;
+  height: 100vh;
+
+  .dashboard-container {
+    padding-top: 6rem;
+
+    .dashboard-item {
+      padding-left: 3rem;
+    }
+  }
+
+  .underline-decor {
+    img {
+      width: 100%;
+    }
+  }
+
+  .welcome-message {
+    color: #ffffff;
+    margin-bottom: 0px;
+    .tag-name {
+      color: #80fffa;
+    }
+  }
+
+  .challenge-title {
+    padding-top: 2rem;
+    padding-left: 4rem;
+    color: #ffffff;
+  }
+
+  .challenge-1 {
+    padding-top: 20px;
+
+    .background {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      background: url("./../../../../assets/components/dashboard/options/option_01.svg")
+        bottom left;
+      background-size: 100%;
+      background-repeat: no-repeat;
+      .icon {
+        position: relative;
+        left: -33px;
+        top: -48px;
+        width: 200px;
+        img {
+          width: 100%;
+        }
+      }
+
+      .info {
+        position: relative;
+        left: -33px;
+        .type {
+          color: #8bfffa;
+        }
+
+        .title {
+          font-size: x-large;
+          color: #efff9a;
+        }
+
+        .details {
+          color: #ffffff;
+        }
+      }
+    }
+  }
+
+  .challenge-2 {
+    padding-top: 20px;
+
+    .background {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      background: url("./../../../../assets/components/dashboard/options/option_02.svg")
+        bottom left;
+      background-size: 95%;
+      background-repeat: no-repeat;
+      .icon {
+        position: relative;
+        left: -33px;
+        top: -48px;
+        width: 150px;
+        img {
+          width: 100%;
+        }
+      }
+
+      .info {
+        position: relative;
+        left: -33px;
+        .type {
+          color: #8bfffa;
+        }
+
+        .title {
+          font-size: x-large;
+          color: #efff9a;
+        }
+
+        .details {
+          color: #ffffff;
+        }
+      }
+    }
+  }
+
+  .challenge-3 {
+    padding-top: 20px;
+
+    .background {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      background: url("./../../../../assets/components/dashboard/options/option_03.svg")
+        bottom left;
+      background-size: 90%;
+      background-repeat: no-repeat;
+      .icon {
+        position: relative;
+        left: -33px;
+        top: -48px;
+        width: 150px;
+        img {
+          width: 100%;
+        }
+      }
+
+      .info {
+        position: relative;
+        left: -33px;
+        .type {
+          color: #8bfffa;
+        }
+
+        .title {
+          font-size: x-large;
+          color: #efff9a;
+        }
+
+        .details {
+          color: #ffffff;
+        }
+      }
+    }
+  }
+
+  .share {
+    padding-top: 20px;
+
+    .background {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      background: url("./../../../../assets/components/dashboard/options/option_04.svg")
+        bottom left;
+      background-size: 85%;
+      background-repeat: no-repeat;
+      .icon {
+        position: relative;
+        left: -33px;
+        top: -48px;
+        width: 150px;
+        img {
+          width: 100%;
+        }
+      }
+
+      .info {
+        position: relative;
+        left: -33px;
+
+        .title {
+          font-size: 2rem;
+          color: #efff9a;
+        }
+      }
+    }
+  }
+}

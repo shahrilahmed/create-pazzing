@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@700&display=swap");
+
+body {
+  font-family: $body-font-family !important;
+  font-size: $base-font-size !important;
+  font-weight: $base-font-weight !important;
+
+  h1 {
+    font-size: $title-font-size !important;
+    font-weight: $title-font-weight !important;
+  }
+
+  h2 {
+    font-size: $subtitle-font-size !important;
+    font-weight: $subtitle-font-weight !important;
+  }
+}

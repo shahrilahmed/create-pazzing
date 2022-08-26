@@ -11,8 +11,8 @@ app-navbar {
   z-index: 100;
   overflow: auto;
   height: 100%;
-  min-width: 150px;
-  max-width: 150px;
+  min-width: 10rem;
+  max-width: 10rem;
   padding-top: 0px;
   padding-right: 0px;
   padding-left: 0px;
@@ -29,8 +29,7 @@ app-navbar {
 
 .dashboard-layout {
   width: 0;
-  margin-left: 150px;
-  padding: 1.5rem 5rem 3rem;
+  margin-left: 10rem;
   -webkit-box-flex: 1;
   -webkit-flex: 1;
   -ms-flex: 1;

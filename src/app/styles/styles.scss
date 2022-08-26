@@ -1,7 +1,8 @@
 //override variables here
 @import "variables";
 //Import styles here
+@import "typography";
 @import "custom";
 
 /* Importing Bootstrap SCSS file. */
-@import '~bootstrap/scss/bootstrap';
+@import "~bootstrap/scss/bootstrap";
