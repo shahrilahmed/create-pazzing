@@ -3,3 +3,13 @@
 .fit-content {
   width: fit-content;
 }
+
+.menu-option-effect:hover {
+  scale: 1.02;
+  transition: $transition-duration;
+}
+
+.menu-option-effect:active {
+  scale: 1;
+  transition: $transition-duration;
+}

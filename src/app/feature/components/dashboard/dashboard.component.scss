@@ -1,14 +1,23 @@
 .dashboard {
-  background: url("./../../../../assets/backgrounds/dashboard-bg.svg") bottom
-    left;
-  background-size: 52vw;
+  background: url("./../../../../assets/backgrounds/dashboard-bg.svg") top left;
+  background-size: 55vw;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   height: 100vh;
-
+  position: sticky;
   .dashboard-container {
-    padding-top: 6rem;
-
+    width: 100%;
+    display: flex;
+    .dashboard-left {
+      padding-top: 6rem;
+      flex: 44%;
+    }
+    .dashboard-right {
+      padding-top: 3rem;
+      flex: 54%;
+    }
     .dashboard-item {
+      height: 100%;
       padding-left: 3rem;
     }
   }
@@ -42,6 +51,7 @@
       background: url("./../../../../assets/components/dashboard/options/option_01.svg")
         bottom left;
       background-size: 100%;
+      width: 100%;
       background-repeat: no-repeat;
       .icon {
         position: relative;
@@ -80,7 +90,8 @@
       padding-bottom: 10px;
       background: url("./../../../../assets/components/dashboard/options/option_02.svg")
         bottom left;
-      background-size: 95%;
+      background-size: 100%;
+      width: 95%;
       background-repeat: no-repeat;
       .icon {
         position: relative;
@@ -119,7 +130,8 @@
       padding-bottom: 10px;
       background: url("./../../../../assets/components/dashboard/options/option_03.svg")
         bottom left;
-      background-size: 90%;
+      background-size: 100%;
+      width: 90%;
       background-repeat: no-repeat;
       .icon {
         position: relative;
@@ -158,7 +170,8 @@
       padding-bottom: 10px;
       background: url("./../../../../assets/components/dashboard/options/option_04.svg")
         bottom left;
-      background-size: 85%;
+      background-size: 100%;
+      width: 85%;
       background-repeat: no-repeat;
       .icon {
         position: relative;
@@ -173,11 +186,100 @@
       .info {
         position: relative;
         left: -33px;
-
         .title {
           font-size: 2rem;
           color: #efff9a;
+          padding-top: 50px;
+          padding-left: 50px;
         }
+      }
+    }
+  }
+
+  .challenge-list {
+    width: 100%;
+    color: white;
+    text-align: center;
+  }
+
+  .create-challenge {
+    .underline {
+      width: 100%;
+      img {
+        width: 100%;
+      }
+    }
+    img {
+      width: 600px;
+      margin: 0 auto;
+    }
+  }
+
+  .challenge-item {
+    background: url("./../../../../assets/components/dashboard/Challenge.svg")
+      bottom left;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 750px;
+    height: 200px;
+    margin: 0 auto;
+    .icon {
+      float: left;
+      width: 213px;
+      position: relative;
+      left: -74px;
+      .img {
+        height: 100%;
+      }
+    }
+
+    .info {
+      float: left;
+      position: relative;
+      top: 21px;
+      left: -75px;
+      width: 453px;
+      height: 123px;
+      .title {
+        font-size: 2rem;
+        color: #fbff9a;
+      }
+
+      .stats {
+        color: #ffffff;
+
+        .pazzcode {
+          position: relative;
+          left: 35px;
+        }
+      }
+    }
+
+    .mod-button {
+      width: 100px;
+      height: 150px;
+      img {
+        width: 110px;
+      }
+
+      .delete-small {
+        position: relative;
+        left: -31px;
+      }
+
+      .edit-small {
+        position: relative;
+        top: -33px;
+        left: -31px;
+      }
+    }
+
+    .share-small {
+      position: relative;
+      top: 33px;
+      left: -77px;
+      img {
+        width: 120px;
       }
     }
   }
